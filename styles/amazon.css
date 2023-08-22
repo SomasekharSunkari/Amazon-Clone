@@ -29,6 +29,9 @@ html {
     margin:2px;
 
 }
+.carsoul-example{
+    width:30vw;
+}
 .user-region-amz span{
 
 font-size:1.5rem;
@@ -36,6 +39,9 @@ font-weight:bold;
 vertical-align:top;
 
 }
+/* .width{
+    width:100%;
+} */
 .user-region-amz{
    
     height:2rem;
@@ -97,7 +103,7 @@ vertical-align:top;
     width:8rem;;
 }
 .returns-orders .one-p{
-    font-size:1.2rem;
+    font-size:1.1rem;
     color:var(--font-color);
 }
 .returns-orders .two{
@@ -170,7 +176,7 @@ vertical-align:top;
     border:2px solid white;
 }
 .search-bar-main{
-    width:85%;background-color: yellow;
+    background-color: yellow;
     flex:1;
     /* display:inline-flex; */
     /* display:flex; */
@@ -192,4 +198,8 @@ vertical-align:top;
 }
 .search-icon i{
     font-size:3rem;
+}
+.grid-container-products{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
 }
